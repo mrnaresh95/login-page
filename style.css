@@ -1,0 +1,230 @@
+* {
+   margin-inline: 0;
+   margin-block: 0;
+   padding-inline: 0;
+   padding-block: 0;
+   box-sizing: border-box;
+}
+
+body,
+html {
+   inline-size: 100%;
+   block-size: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: sans-serif;
+}
+
+.card {
+   background-color: rgb(99, 99, 235);
+   width: 1100px;
+   height: 600px;
+   border-radius: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.card h1 {
+   color: white;
+   padding-left: 80px;
+   font-size: 45px;
+   display: flex;
+}
+
+.form {
+   background-color: rgb(255, 252, 252);
+   width: 400px;
+   height: 520px;
+   margin-right: 30px;
+   border-radius: 30px;
+}
+
+.form .h3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 22px;
+   margin-top: 20px;
+   color: rgb(48, 48, 48);
+   font-weight: bold;
+
+}
+
+.icons {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 25px;
+}
+
+.icon1 {
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   gap: 10px;
+   padding: 8px 20px;
+   border-radius: 10px;
+   border: 1px solid rgb(223, 223, 223);
+   color: rgb(49, 46, 46);
+   background-color: rgb(236, 234, 234);
+}
+
+.icon2 {
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   padding: 13px 25px;
+   border-radius: 10px;
+   border: 1px solid rgb(223, 223, 223);
+   color: rgb(49, 46, 46);
+   background-color: rgb(236, 234, 234);
+}
+/* .form h3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(61, 59, 59);
+   background-color: white;
+   padding-top: 10px;
+} */
+
+hr {
+   width: 337px;
+   margin-left: 35px;
+}
+
+.input .email {
+   color: rgb(39, 37, 37);
+   display: flex;
+   justify-content: flex-start;
+   align-items: left;
+   margin-top: 10px;
+   margin-left: 30px;
+   margin-bottom: 10px;
+   font-weight: 500;
+}
+.input .mail:hover{
+   padding: 0.5rem;
+   background-color: rgb(157, 157, 161);
+   /* color: rgb(211, 28, 28); */
+}
+.mail:hover::placeholder{
+   color:white;
+}
+
+.input .mail {
+   margin-left: 30px;
+   width: 330px;
+   height: 40px;
+   border: 2px solid rgb(187, 187, 187);
+}
+
+.mail::placeholder {
+   padding-left: 8px;
+   font-size: 1rem;
+}
+
+.input .pass {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 28px;
+   margin-top: 20px;
+   margin-right: 32px;
+   color: rgb(39, 37, 37);
+   font-size: 18px;
+}
+
+.pass h3 {
+   font-weight: 500;
+}
+
+.pass .forgot {
+   color: rgb(32, 32, 204);
+}
+.pass .forgot:hover{
+   color:red;
+   cursor: pointer;
+}
+
+.pass1 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+
+.pass1 .password {
+   width: 330px;
+   /* padding: 0.5rem; */
+   height: 40px;
+   border: 2px solid rgb(187, 187, 187);
+}
+.pass1 .password:hover{
+   padding: 0.5rem;
+   background-color: rgb(157, 157, 161);
+   color: rgb(0, 0, 0);
+}
+.password:hover::placeholder{
+   /* padding:10px; */
+   color:white;}
+
+.pass1 .ri-eye-off-line {
+   position: absolute;
+   top: 355px;
+   left: 1130px;
+   font-size: 22px;
+   font-size: 20px;
+   /* mix-blend-mode: multiply; */
+}
+
+.password::placeholder {
+   padding-left: 8px;
+   font-size: 1rem;
+}
+
+button {
+   all: initial;
+   font: inherit;
+   width: 330px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 28px;
+   margin-top: 25px;
+   color: white;
+   background-color: blue;
+   border-radius: 5px;
+   font-weight: 500;
+   font-size: 20px;
+}
+button:hover{
+   color:black;
+   background-color: rgb(151, 144, 144);  
+   border: 2px solid black;
+   cursor: pointer;
+}
+
+.input h2 {
+   color: rgb(39, 37, 37);
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 35px;
+   font-weight: 500;
+}
+
+.input a {
+   text-decoration: none;
+   margin-left: 5px;
+}
+.input a:hover{
+   color:red;
+}
